@@ -1,0 +1,32 @@
+@import 'config';
+
+
+header{
+  background-color: $primary-color;
+  color: set-text-color($primary-color);
+  
+}
+
+.border{
+  padding: 1rem;
+  border-bottom: 10px solid;
+  border-image-source: linear-gradient(10deg, $primary-color, 15%, $secondary-color);
+  border-image-slice: 1;
+}
+
+.assignment {
+  height: 100vh;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: 
+      url('../img/freeimg_47841037freejpg850.jpeg') center top;
+  background-size: cover;
+  
+  .info{
+    padding-top: 1rem;
+  }
+  color: set-text-color($primary-color);
+}
+
