@@ -5,6 +5,20 @@
   padding: 0;
 }
 
+@media screen and (min-width: 0px) {
+  .img {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /*prevents image from covering text when view window expands*/
+  .img {
+    width: auto;
+    height: 75%;
+  }
+}
+
 header {
   background-color: #010936;
   color: #fff;
@@ -40,5 +54,8 @@ header {
   border-image-source: linear-gradient(50deg, #010936, 5%, #6C03C6);
   border-image-slice: 1;
 }
+
+.text {
+  padding: 1rem;
+}
 /*# sourceMappingURL=stylesheet.css.map */
-/*my scss files do contain a bunch of unused code. There are a few things I have been studying on the side but given my current progress and schedule for today I didn't use them today but intend to come back to this to get them working for my own practice,*/

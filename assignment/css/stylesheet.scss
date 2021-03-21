@@ -1,5 +1,5 @@
 @import 'config';
-
+@import 'responsive';
 
 header{
   background-color: $primary-color;
@@ -35,4 +35,8 @@ header{
   border: 10px solid;
   border-image-source: linear-gradient(50deg, $primary-color, 5%, $secondary-color);
   border-image-slice: 1;
+}
+
+.text {
+  padding: 1rem;
 }

@@ -1,0 +1,14 @@
+@include media-sm {
+  .img {
+    width: 80%;
+  }
+}
+
+
+@include media-lg {
+  /*prevents image from covering text when view window expands*/
+  .img {
+    width: auto;
+    height: 75%;
+  }
+}
