@@ -30,3 +30,14 @@ header{
   color: set-text-color($primary-color);
 }
 
+.image {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 2rem;
+  width: 100vw;
+  height: 60vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
