@@ -30,14 +30,9 @@ header{
   color: set-text-color($primary-color);
 }
 
-.image {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 2rem;
-  width: 100vw;
-  height: 60vw;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.img {
+  margin-top: 2rem;
+  border: 10px solid;
+  border-image-source: linear-gradient(50deg, $primary-color, 5%, $secondary-color);
+  border-image-slice: 1;
 }

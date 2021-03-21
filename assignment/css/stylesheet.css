@@ -34,21 +34,11 @@ header {
   padding-top: 1rem;
 }
 
-.image {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 2rem;
-  width: 100vw;
-  height: 60vw;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.img {
+  margin-top: 2rem;
+  border: 10px solid;
+  border-image-source: linear-gradient(50deg, #010936, 5%, #6C03C6);
+  border-image-slice: 1;
 }
 /*# sourceMappingURL=stylesheet.css.map */
+/*my scss files do contain a bunch of unused code. There are a few things I have been studying on the side but given my current progress and schedule for today I didn't use them today but intend to come back to this to get them working for my own practice,*/
